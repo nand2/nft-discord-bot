@@ -22,10 +22,7 @@ module.exports = {
 
     let offset = 0;
     let settings = { 
-      method: "GET",
-      headers: {
-        "X-API-KEY": process.env.OPEN_SEA_API_KEY
-      }
+      method: "GET"
     };
     while(1)
     {
